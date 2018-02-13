@@ -1,0 +1,4 @@
+baseURL = "https://feynmanliang.com/"
+languageCode = "en-us"
+title = "Feynman Liang"
+theme = "ananke"
