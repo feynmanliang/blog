@@ -1,4 +1,9 @@
 baseURL = "https://feynmanliang.com/"
 languageCode = "en-us"
 title = "Feynman Liang"
-theme = "ananke"
+
+theme = "one"
+googleAnalytics = "UA-26556828-1"
+
+[params]
+    navigation = ["about.md"]
