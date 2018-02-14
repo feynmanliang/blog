@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2018-02-13T12:04:08-08:00
-slug: "about"
 draft: false
 resources :
 - src : "images/headshot.jpg"
