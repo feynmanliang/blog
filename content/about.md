@@ -9,7 +9,7 @@ resources :
 ---
 
 
-<img style="width: 200px" src="headshot.jpg" />
+<img style="width: 200px" src="images/headshot.jpg" />
 
 I am a second year statistics PhD student at UC Berkeley.
 
