@@ -2,6 +2,6 @@
 	path = public
 	url = git@github.com:feynmanliang/feynmanliang.github.io.git
 	branch = master
-[submodule "themes/one"]
-	path = themes/one
-	url = https://github.com/resugary/hugo-theme-one
+[submodule "themes/slim"]
+	path = themes/slim
+	url = https://github.com/feynmanliang/hugo-theme-slim

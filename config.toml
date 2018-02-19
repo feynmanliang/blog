@@ -2,8 +2,14 @@ baseURL = "https://feynmanliang.com/"
 languageCode = "en-us"
 title = "Feynman Liang"
 
-theme = "one"
-googleAnalytics = "UA-26556828-1"
+theme = "slim"
+googleAnalytics = ""
 
 [params]
-    navigation = ["about.md"]
+  #Subtitle = "Your site's subtitle/tagline"
+  GithubID = "feynmanliang"
+  TwitterID = "feynmanliang"
+  AnalyticsID = "UA-26556828-1"
+  Summary = false
+  Content = false
+  FooterMsg = "Copyright Feynman Liang 2018. Powered by Hugo."

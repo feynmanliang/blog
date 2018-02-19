@@ -20,7 +20,7 @@ MathJax.Hub.Config({
 });
 {{</ highlight >}}
 
-Now test it out: `$\sum \frac{1}{n} = H\_n$` should yield $\sum \frac{1}{n} = H\_n$.
+Now test it out: `$\sum \frac{1}{n} = H\_n$` should yield \\(\sum \frac{1}{n} = H\_n\\).
 
 The configuration is not perfect, however. Action items include:
 
