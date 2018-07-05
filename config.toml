@@ -12,6 +12,7 @@ theme = "slim"
   Summary = false
   Content = false
   FooterMsg = "Copyright Feynman Liang 2018. Powered by Hugo."
+  DisqusUrlPrefix = "feynman"
 
 [taxonomies]
   tag = "tags"
