@@ -2,15 +2,10 @@
 title: "About Me"
 date: 2018-02-13T12:04:08-08:00
 menu: main
-resources :
-- src : "images/headshot.jpg"
-  name : "headshot"
+resources:
+- name: headshot
+  src: headshot.jpg
 ---
-
-
-<img style="width: 200px" src="../images/headshot.jpg" />
-
-{{ .Resources.ByType "image" }}
 
 I am a third year statistics PhD student at UC Berkeley, and a software
 hobbyist in my free time.

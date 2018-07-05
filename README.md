@@ -14,9 +14,9 @@ git submodule update
 
 ## Workflow
 
-To preview (including drafts) while writing:
+To preview (including drafts and future posts) while writing:
 ```
-hugo server -D --disableFastRender --noHTTPCache --ignoreCache
+hugo server -D -F --disableFastRender --noHTTPCache --ignoreCache
 ```
 
 To minimize caching issues while developing layouts:
