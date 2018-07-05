@@ -4,4 +4,4 @@
 	branch = master
 [submodule "themes/slim"]
 	path = themes/slim
-	url = https://github.com/feynmanliang/hugo-theme-slim
+	url = git@github.com:feynmanliang/hugo-theme-slim.git
