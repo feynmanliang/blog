@@ -1,9 +1,11 @@
-+++
-date = "2013-10-27T00:29:39+01:00"
-draft = false
-title = "MathJax and Syntax Highlighting on Ghost"
-
-+++
+---
+title: "MathJax and Syntax Highlighting on Ghost"
+date: 2013-10-27T00:29:39+01:00
+draft: false
+tags:
+- programming
+- tutorial
+---
 
 ## MathML Support (MathJax)
 Thanks to [Patrick Edelman](http://www.patrickedelman.com/latex-ghost/) for the reference!

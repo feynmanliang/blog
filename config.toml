@@ -13,3 +13,5 @@ theme = "slim"
   Content = false
   FooterMsg = "Copyright Feynman Liang 2018. Powered by Hugo."
 
+[taxonomies]
+  tag = "tags"

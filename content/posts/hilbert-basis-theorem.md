@@ -1,8 +1,11 @@
-+++
-date = "2013-10-27T00:29:39+01:00"
-draft = false
-title = "Hilbert's Basis Theorem"
-+++
+---
+title: "Hilbert's Basis Theorem"
+date: 2018-07-05T16:24:42-07:00
+draft: true
+tags:
+- math
+- algebra
+---
 
 Let $k$ be a field. Then ideal $I \subset k[x]$ is finitely generated.
 
