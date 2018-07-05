@@ -3,12 +3,11 @@ languageCode = "en-us"
 title = "Feynman Liang"
 
 theme = "slim"
-googleAnalytics = ""
 
 [params]
   #Subtitle = "Your site's subtitle/tagline"
   GithubID = "feynmanliang"
-  TwitterID = "feynmanliang"
+  LinkedInID = "feynman"
   AnalyticsID = "UA-26556828-1"
   Summary = false
   Content = false

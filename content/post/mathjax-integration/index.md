@@ -1,7 +1,7 @@
 +++
 date = "2013-10-27T00:29:39+01:00"
 draft = false
-title = "MathJax and Syntax Highlighting (with Live Preview) on Ghost"
+title = "MathJax and Syntax Highlighting on Ghost"
 
 +++
 
