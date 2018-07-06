@@ -12,13 +12,13 @@ Thanks to [Patrick Edelman](http://www.patrickedelman.com/latex-ghost/) for the 
 
 Adding LaTeX to Ghost is very simple. Open up `ghost/content/themes/YOUR_THEME_NAME/default.hbs`. Before `</body>`, insert:
 
-{{<highlight html >}}
+{{<highlight html "linenos=table">}}
 {{! Mathjax configuration}}
-<script type="text/javascript" 	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 {{</ highlight >}}
 
@@ -39,11 +39,11 @@ The configuration is not perfect, however. Action items include:
 ```
 - Specify highlighting and prettyprinting classes using MarkDown:
 
-		```prettyprint lang-python
-		def main():
-		print(
-    		"Finally... technical writing is as easy as %s" %
-            	' '.join(map(lambda x: str(x), range(1,4))))
+        ```prettyprint lang-python
+        def main():
+          print(
+            "Finally... technical writing is as easy as %s" %
+              ' '.join(map(lambda x: str(x), range(1,4))))
         ```
 
 ## Live Previews
@@ -52,7 +52,7 @@ The configuration is not perfect, however. Action items include:
 #### Mathjax Live Preview
 I was able to adapt Peter's to enable MathJax live previewing. To do so, edit `ghost/core/server/views/default.hbs` and before `</body>` add
 
-{{< highlight html >}}
+{{< highlight html "linenos=table">}}
 {{! Load and configure mathjax }}
 <script type="text/javascript"     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
