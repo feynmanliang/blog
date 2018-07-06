@@ -1,7 +1,7 @@
 ---
 title: "Hilbert's Basis Theorem"
 date: 2018-07-05T16:24:42-07:00
-draft: true
+draft: false
 tags:
 - math
 - algebraic geometry
