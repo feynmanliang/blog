@@ -3,13 +3,11 @@ const CACHE_VERSION = 1;
 const BASE_CACHE_FILES = [
     '/js/slim.js',
     '/manifest.json',
-    '/favicon.ico',
 ];
 
 const OFFLINE_CACHE_FILES = [
     '/js/slim.js',
     '/offline/index.html',
-    '/favicon.ico',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
