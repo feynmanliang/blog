@@ -7,6 +7,8 @@ resources:
   src: headshot.jpg
 ---
 
+{{< figure src="headshot.jpg" >}}
+
 I am a third year statistics PhD student at UC Berkeley, and a software
 hobbyist in my free time.
 
