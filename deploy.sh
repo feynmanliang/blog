@@ -3,12 +3,12 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --cleanDestinationDir -d ../feynmanliang.github.io
 
-# Go To Public folder
-cd public
+# Go to published repo
+cd ../feynmanliang.github.io
 # Add changes to git.
-git add .
+git add -A
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -21,4 +21,4 @@ git commit -m "$msg"
 git push origin master
 
 # Come Back up to the Project Root
-cd ..
+cd ../blog
