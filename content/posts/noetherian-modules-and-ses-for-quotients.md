@@ -8,7 +8,7 @@ tags:
 ---
 
 Equivalent characterizations of the Noetherian condition
-are plentiful (see [Hilbert's Basis Theorem]({{< ref "posts/hilbert-basis-theorem.md" >}}) for more)
+are plentiful (see [Hilbert's Basis Theorem]({{< ref "/posts/hilbert-basis-theorem.md" >}}) for more)
 and using them interchangably can be a convenient and succinct way
 to express proofs. In this post, we explore yet another characterization
 of Noetherian conditions and bring attention to an important short exact sequence
