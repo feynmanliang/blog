@@ -1,0 +1,15 @@
+lang: en
+
+home:
+  welcome: Hello, curious creator.
+
+menu_links:
+  - text: About
+    href: /about
+
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: Feynman Liang
+  description: A personal blog on technical topics.
+  lang: "=lang"
