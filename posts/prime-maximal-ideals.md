@@ -7,13 +7,14 @@ tags:
 - algebra
 ---
 
-## Motivation
-
 Consider the natural numbers $\mathbb{N}$ and order
 them by divisibility: $a \leq b$ whenever $b$ divides $a$.
 For example if I give you the set of numbers
 $$\{6,12,18,24,30\}$$
 Then the "largest" number in terms of divisibility is $6$.
+
+<!--more-->
+
 
 This ordering may seem strange; did we just reverse the "usual" ordering on
 natural numbers? Not quite. While for any $a,b \in \mathbb{N}$ at least one of
@@ -28,6 +29,7 @@ if we exclude $1$ from the natural numbers, we get:
 
 **Proposition**: Under divisibility ordering, the maximal elements
 of $\mathbb{N} \setminus \\{1\\}$ are prime.
+
 
 **Proof**: Since $n \leq m$ means that $m$ divides $n$, a non-maximal
 $n$ is not prime. Conversely, if $m$ is maximal then there doesn't

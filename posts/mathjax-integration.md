@@ -12,7 +12,7 @@ Thanks to [Patrick Edelman](http://www.patrickedelman.com/latex-ghost/) for the 
 
 Adding LaTeX to Ghost is very simple. Open up `ghost/content/themes/YOUR_THEME_NAME/default.hbs`. Before `</body>`, insert:
 
-{{<highlight html "linenos=table">}}
+```js
 {{! Mathjax configuration}}
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -20,7 +20,8 @@ Adding LaTeX to Ghost is very simple. Open up `ghost/content/themes/YOUR_THEME_N
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
-{{</ highlight >}}
+</script>
+```
 
 Now test it out: `$\sum \frac{1}{n} = H\_n$` should yield \\(\sum \frac{1}{n} = H\_n\\).
 
@@ -34,7 +35,7 @@ The configuration is not perfect, however. Action items include:
 
 - Open `ghost/content/themes/YOUR_THEME_NAME/default.hbs`.
 - Before `</body>`, insert:
-```
+```html
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 ```
 - Specify highlighting and prettyprinting classes using MarkDown:
@@ -52,7 +53,7 @@ The configuration is not perfect, however. Action items include:
 #### Mathjax Live Preview
 I was able to adapt Peter's to enable MathJax live previewing. To do so, edit `ghost/core/server/views/default.hbs` and before `</body>` add
 
-{{< highlight html "linenos=table">}}
+```javascript
 {{! Load and configure mathjax }}
 <script type="text/javascript"     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
@@ -99,7 +100,7 @@ setTimeout(function(){
     jQuery('.content-list-content li').click(function(){ mathjaxify(); });
     }, 500);
 </script>
+```
 
-{{</ highlight >}}
 Enjoy!
 

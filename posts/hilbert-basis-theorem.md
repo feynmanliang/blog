@@ -15,6 +15,8 @@ as a side project. Let's hope I get far enough to learn something useful.
 In this post, I want to write a bit about a result known as Hilbert's Basis Theorem (HBT). We'll motivate
 why we should care about it through a use case prevalent in algebraic geometry.
 
+<!--more-->
+
 ## Motivating example
 
 In algebraic geometry, one defines "shapes" and "curves" by taking a set of polynomials $S \subset k[x_1, \ldots, x_r]$
