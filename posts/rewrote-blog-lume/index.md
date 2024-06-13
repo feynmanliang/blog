@@ -42,12 +42,12 @@ and most performant.
 
 Before
 
-![](/img/rewrote-blog-lume/before.webp){ style="max-width: 100%; margin: 0 auto" }
+![](/img/rewrote-blog-lume/before.png){ transform-images="avif webp jpg 600@2" }
  
 
 After
 
-![](/img/rewrote-blog-lume/after.webp){ style="max-width: 100%; margin: 0 auto" }
+![](/img/rewrote-blog-lume/after.png){ transform-images="avif webp jpg 600@2" }
  
 
 ## Suggestions
