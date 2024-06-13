@@ -1,15 +1,19 @@
 lang: en
 
 home:
-  welcome: Hello, curious creator.
+  welcome: Hello, curious creators.
 
 menu_links:
   - text: About
     href: /about
-
+extra_head:
+  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.css">'
 
 # Metas plugin https://lume.land/plugins/metas/#description
 metas:
-  site: Feynman Liang
-  description: A personal blog on technical topics.
-  lang: "=lang"
+  site: feynmanliang.com
+  description: Random writings
+  title: "=title"
+  image: "=image"
+  twitter: "@feynmanliang"
+  lang: en

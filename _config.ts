@@ -1,12 +1,20 @@
 import lume from "lume/mod.ts";
-import imagick from "lume/plugins/imagick.ts";
-
-import blog from "https://deno.land/x/lume_theme_simple_blog@v0.5.0/mod.ts";
+import katex from "lume/plugins/katex.ts";
+import blog from "blog/mod.ts";
 
 const site = lume();
 
 site
-  .use(imagick())
-  .use(blog());
+  .use(blog())
+  .use(katex({
+    options: {
+        delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true },
+      ],
+    },
+  }));
 
 export default site;

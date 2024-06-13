@@ -7,11 +7,13 @@ tags:
 - algebra
 ---
 
+
 Consider the natural numbers $\mathbb{N}$ and order
 them by divisibility: $a \leq b$ whenever $b$ divides $a$.
 For example if I give you the set of numbers
 $$\{6,12,18,24,30\}$$
 Then the "largest" number in terms of divisibility is $6$.
+
 
 <!--more-->
 
