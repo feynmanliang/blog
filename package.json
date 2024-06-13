@@ -1,0 +1,7 @@
+{
+  "name": "sharp-deno",
+  "private": true,
+  "dependencies": {
+    "sharp": "^0.33.1"
+  }
+}

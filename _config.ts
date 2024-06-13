@@ -1,6 +1,8 @@
 import lume from "lume/mod.ts";
-import katex from "lume/plugins/katex.ts";
 import blog from "blog/mod.ts";
+import katex from "lume/plugins/katex.ts";
+import picture from "lume/plugins/picture.ts";
+import transformImages from "lume/plugins/transform_images.ts";
 
 const site = lume();
 
@@ -15,6 +17,9 @@ site
         { left: "\\[", right: "\\]", display: true },
       ],
     },
-  }));
+  }))
+  .use(picture())
+  .use(transformImages())
+;
 
 export default site;

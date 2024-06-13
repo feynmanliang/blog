@@ -15,6 +15,10 @@
         default = pkgs.mkShell {
           packages = with pkgs; [
             deno
+            node2nix
+            ((import ./default.nix) { 
+              inherit pkgs; 
+            }).sharp
             nodePackages.typescript-language-server
           ];
         };
