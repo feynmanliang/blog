@@ -3,6 +3,7 @@ import blog from "blog/mod.ts";
 import katex from "lume/plugins/katex.ts";
 import picture from "lume/plugins/picture.ts";
 import transformImages from "lume/plugins/transform_images.ts";
+import codeHighlight from "lume/plugins/code_highlight.ts";
 
 const site = lume();
 
@@ -20,6 +21,7 @@ site
   }))
   .use(picture())
   .use(transformImages())
+  .use(codeHighlight())
 ;
 
 export default site;
